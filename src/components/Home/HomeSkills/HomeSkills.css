@@ -1,0 +1,65 @@
+.HomeSkills {
+    color: white;
+    height: auto;
+    margin-top: 5em;
+}
+.HomeSkills h2 {
+    font-size: 4em;
+    margin-bottom: 0 !important;
+}
+.HomeSkills hr {
+    border: 1px solid rgba(255,255,255,.3);
+    width: 70%;
+    margin-bottom: 2em;
+}
+.skillsContainer {
+    min-height: 800px;
+}
+.buttonContainer {
+    padding: 50px;
+    width: 100%;
+    /* display: flex; */
+    margin: 0 auto;
+
+    /* justify-content: space-around; */
+}
+.btn {
+    margin: 0 20px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon-size {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5em;
+    margin: 0 auto;
+    font-size: 100px;
+    height: 10px;
+}
+i {
+    display: flex;
+    flex-direction: column;
+}
+
+i span {
+    font-family: 'Handlee';
+    color: white;
+    margin: 1.5em 0;
+    font-size: 30px;
+}
+
+.selected {
+    position: relative;
+}
+.selected:after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #d2d7da;
+    width: 80%;
+    transform: translateX(-50%);
+    bottom: -25px;
+    left: 50%;
+}

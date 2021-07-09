@@ -1,0 +1,36 @@
+.HomeTitle {
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Handlee';
+    height: 100%;
+}
+
+.HomeTitle-Greet .Typist {
+    height: 250px;
+}
+
+.HomeTitle-Words h1, p {
+    font-size: 60px !important;
+}
+
+.HomeTitle-Greet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.HomeTitle-Greet-Pictures img {
+    height: 600px;
+    border-radius: 20px;
+    /* box-shadow: 15px 10px 5px rgba(0,0,0,.3); */
+    box-shadow: rgba(0, 51, 204, 0.4) 5px 5px, rgba(0, 57, 230, 0.3) 10px 10px, rgba(0, 64, 255, 0.2) 15px 15px, rgba(26, 83, 255, 0.1) 20px 20px, rgba(51, 102, 255, 0.05) 25px 25px;
+}
+
+.HomeTitle-Words span p {
+    font-size: 24px !important;
+}

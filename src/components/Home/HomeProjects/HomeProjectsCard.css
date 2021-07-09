@@ -1,0 +1,14 @@
+.HomeProjectsCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.HomeProjectsCard-Container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    /* max-width: 200px; */
+}

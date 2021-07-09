@@ -1,0 +1,64 @@
+.HomeTerminal {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutMe {
+    width: 100%;
+    margin: 50px 0;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.topTerminal {
+    background: rgba(255,255,255,.2);
+    border-radius: 10px 10px 0 0;
+    height: 30px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+}
+
+.circle {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#red {
+    background: rgba(255,0,0,.7);
+}
+#orange {
+    background: rgba(248,148,6, 1);
+}
+#green {
+    background: rgba(0, 245, 0, .7);
+}
+.topTerminal span {
+    width: 100%;
+    color: white;
+}
+
+.terminal {
+    text-align: left;
+    word-spacing: 3px;
+    color: rgba(0,255,0, .8);
+    box-shadow: 15px 10px 10px 10px rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.6);
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    letter-spacing: .1rem;
+}
+.first {
+    color: white;
+}
+
+.fade-in {
+    transition: opacity 1s ease;
+}
