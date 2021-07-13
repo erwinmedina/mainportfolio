@@ -1,12 +1,14 @@
 import "./HomeProjects.css";
+import HomeProjectsImages from "./HomeProjectsImages";
 import HomeProjectsCard from "./HomeProjectsCard";
 
 export default function HomeProjects() {
     return (
         <div className="HomeProjects">
-            <h2>List of Projects</h2>
+            <h2>Projects</h2>
             <hr />
-            <HomeProjectsCard/>
+            <HomeProjectsImages/>
+            {/* <HomeProjectsCard/> */}
 
         </div>
     )

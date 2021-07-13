@@ -23,7 +23,7 @@
 
     /* justify-content: space-around; */
 }
-.btn {
+.buttonContainer .btn {
     margin: 0 20px;
     width: 150px;
     font-size: 24px;

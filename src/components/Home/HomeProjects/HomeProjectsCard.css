@@ -1,14 +1,29 @@
 .HomeProjectsCard {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .HomeProjectsCard-Container {
+    text-align: left;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 300px;
+    width: 400px;
     /* max-width: 200px; */
+}
+.HomeProjectsCard-Container img {
+    width: 100%;
+    border-radius: 20px;
+}
+.HomeProjectsCard-Title {
+    font-size: 30px;
+}
+.HomeProjectsCard-SkillsContainer {
+    display: flex;
+}
+.HomeProjectsCard-Skills {
+    font-size: 15px;
+    margin: 0 10px 10px 0;
 }
