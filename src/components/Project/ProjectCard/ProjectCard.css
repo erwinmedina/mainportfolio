@@ -1,8 +1,9 @@
 .ProjectCard {
     font-family: "Handlee";
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px;
+    margin: 50px auto;
     gap: 40px;
 }
 .ProjectCardContainer {
@@ -12,6 +13,7 @@
     background: white;
     border-radius: 5px;
     max-width: 500px;
+    height: 420px;
 }
 .ProjectCardImage {
     padding: 10px;
@@ -28,7 +30,8 @@
     margin: 0;
 }
 .ProjectCardDetails p:last-of-type {
-    font-size: 15px;
+    font-size: 17px;
+    height: 40px;
     margin: 0;
 }
 
@@ -37,7 +40,7 @@
     flex-direction: column;
     font-size: 20px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0 10px;
 }
 
 .ProjectCardDetailsButtonContainer {
@@ -57,22 +60,23 @@
 }
 .DetailPopTitle p {
     margin: 0 10px;
+    font-weight: bold;
     font-size: 54px;
 }
 
 .ProjectCardDetailPop {
-    border-radius: 20px;
-    border: gray solid 3px;
-    padding-top: 0;
-    position: absolute;
     background: white;
-    min-height: 450px;
-    height: 70vh;
-    width: 60vw;  
+    border: gray solid 3px;
+    border-radius: 20px;
+    padding-top: 0;
+    position: fixed;
+    min-height: 600px;
+    height: 500px;
+    width: 900px;  
+    margin-left: -450px;
+    margin-top: -300px;
     top: 50%;
     left: 50%;
-    margin-left: -30vw;
-    margin-top: -35vh;
 }
 .DetailPopTop {
     padding: 20px;
@@ -87,23 +91,32 @@
     border-radius: 0;
 }
 .DetailPopTop img {
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 300px;
+    max-height: 300px;
     /* height: 100%; */
     border-radius: 20px;
     max-width: 100%;
 }
 .PopTopContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     height: 100%;
+    width: 100%;
     padding: 10px;
+}
+.PopTopContainer div {
+    font-size: 20px;
+}
+.PopTopContainer div:hover {
+    cursor: default !important;
+
 }
 .DetailPopBot {
     width: 80%;
     padding: 0 20px;
     text-align: left;
+    font-size: 18px;
 }
 .DetailBotButtons {
     padding: 0 20px;
@@ -111,4 +124,14 @@
 }
 .DetailBotButtons .btn {
     margin-right: 10px;
+    font-size: 20px;
+    /* width: 15%; */
+}
+.DetailBotButtons i {
+    margin-right: 10px;
+}
+
+.disableStuff {
+    opacity: 0.5;
+    pointer-events: none;
 }

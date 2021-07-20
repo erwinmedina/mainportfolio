@@ -1,6 +1,5 @@
 import "./HomeTitle.css";
 import FadeIn from "react-fade-in";
-import fadeIn from "react-animations/lib/fade-in";
 import Typist from "react-typist";
 
 export default function HomeTitle() {

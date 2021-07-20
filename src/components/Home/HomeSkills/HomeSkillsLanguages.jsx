@@ -12,7 +12,7 @@ export default function HomeSkillsLanguages() {
                     <span>Python</span>
                 </i>
                 <i class="devicon-c-plain colored">
-                    <span>C Programming</span>
+                    <span>C</span>
                 </i>
             </div>
         </FadeIn>

@@ -33,14 +33,11 @@ export default function HomeSkillsMain() {
                     <span>Python</span>
                 </i>
                 <i class="devicon-c-plain colored">
-                    <span>C Programming</span>
+                    <span>C</span>
                 </i>
                 <i class="devicon-heroku-original colored">
                     <span>Heroku</span>
                 </i>
-                {/* <i class="devicon-git-plain colored">
-                    <span>Git</span>
-                </i> */}
                 <i class="devicon-github-original">
                     <span>Github</span>
                 </i>

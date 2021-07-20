@@ -1,6 +1,7 @@
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { useState } from 'react';
+import FadeIn from "react-fade-in";
 import { projects } from "../../../projects.js";
 import "./ProjectCard.css";
 
@@ -23,7 +24,8 @@ export default function ProjectCard() {
     return (
         <div className="ProjectCard">
             { projects.map(project => 
-                <div className="ProjectCardContainer">
+            <FadeIn>
+                <div className={`ProjectCardContainer ${details ? "disableStuff":''}`}>
                 <div className="ProjectCardImage">
                     <img src={project.images[0]} alt="" />
                 </div>
@@ -31,17 +33,18 @@ export default function ProjectCard() {
                     <p>{project.name}</p>
                     <p>{project.short}</p>
                     <div className="ProjectCardDetailsButtonContainer">
-                        <button onClick={() => handleDetailButton(project)} className="btn btn-primary">Details</button>
+                        <button onClick={() => handleDetailButton(project)} className="btn btn-lg btn-primary">Details</button>
                     </div>
                 </div>
             </div>
+            </FadeIn>
             )}
             
             { details && 
             <div className="ProjectCardDetailPop">
                 <div className="DetailPopTitle">
                     <p>{projectDetails.name}</p>
-                    <div onClick={handleDetailButton} className="btn btn-danger">BACK</div>
+                    <div onClick={handleDetailButton} className="btn btn-danger">X</div>
                 </div>
                 <div className="DetailPopTop">
                     <div className="slide-container">
@@ -57,7 +60,7 @@ export default function ProjectCard() {
                     </div>
                     <div className="PopTopContainer container">
                         { projectDetails.skills.map(skill =>
-                            <div className="btn btn-sm btn-outline-secondary">{skill}</div>
+                            <div className="btn btn-sm btn-outline-dark">{skill}</div>
                             
                         )}
                     </div>
@@ -66,11 +69,15 @@ export default function ProjectCard() {
                     <p>{projectDetails.long}</p>
                 </div>
                 <div className="DetailBotButtons">
-                        <button className="btn btn-primary">Github</button>
-                        <button className="btn btn-primary">Demo</button>
-                    </div>
+                    <a href={projectDetails.github} target="_blank" className="btn btn-primary">
+                        <i class="fab fa-github"></i>
+                        Github</a>
+
+                    <a href={projectDetails.demo}  target="_blank" className="btn btn-primary">
+                        <i class="fas fa-laptop"></i>
+                        Demo</a>
+                </div>
             </div>
-            
             }
            
         </div>
