@@ -1,0 +1,114 @@
+.ProjectCard {
+    font-family: "Handlee";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 40px;
+}
+.ProjectCardContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 5px;
+    max-width: 500px;
+}
+.ProjectCardImage {
+    padding: 10px;
+}
+.ProjectCardImage img {
+    border-radius: 5px;
+    min-height: 256px;
+    width: 100%;
+    height: 100%;
+}
+.ProjectCardDetails p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.ProjectCardDetails p:last-of-type {
+    font-size: 15px;
+    margin: 0;
+}
+
+.ProjectCardDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ProjectCardDetailsButtonContainer {
+    margin: 10px 0;
+}
+.ProjectCardDetailsButtonContainer button {
+    margin-right: 10px;
+}
+.DetailPopTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background: rgba(0,0,0,.1);
+
+}
+.DetailPopTitle p {
+    margin: 0 10px;
+    font-size: 54px;
+}
+
+.ProjectCardDetailPop {
+    border-radius: 20px;
+    border: gray solid 3px;
+    padding-top: 0;
+    position: absolute;
+    background: white;
+    min-height: 450px;
+    height: 70vh;
+    width: 60vw;  
+    top: 50%;
+    left: 50%;
+    margin-left: -30vw;
+    margin-top: -35vh;
+}
+.DetailPopTop {
+    padding: 20px;
+    display: flex;
+}
+.DetailPopTop .slide-container {
+    width: 60%;
+    margin: 0;
+}
+.DetailPopTop .react-slideshow-fade-wrapper {
+    background: none;
+    border-radius: 0;
+}
+.DetailPopTop img {
+    min-height: 400px;
+    max-height: 400px;
+    /* height: 100%; */
+    border-radius: 20px;
+    max-width: 100%;
+}
+.PopTopContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+    padding: 10px;
+}
+.DetailPopBot {
+    width: 80%;
+    padding: 0 20px;
+    text-align: left;
+}
+.DetailBotButtons {
+    padding: 0 20px;
+    text-align: left;
+}
+.DetailBotButtons .btn {
+    margin-right: 10px;
+}
