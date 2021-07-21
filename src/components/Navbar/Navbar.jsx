@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
             
             <li className="nav-item">
-              <a className="nav-link" href="#">Resume</a>
+              <a className="nav-link" href="resumepage">Resume</a>
             </li>
           </ul>
         </div>
