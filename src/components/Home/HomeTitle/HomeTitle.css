@@ -9,7 +9,7 @@
 }
 
 .HomeTitle-Greet .Typist {
-    height: 250px;
+    min-height: 250px;
 }
 
 .HomeTitle-Words h1, .HomeTitle-Words p {
@@ -17,13 +17,12 @@
 }
 
 .HomeTitle-Greet {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
 }
-
+.HomeTitle-Words {
+    min-height: 375px;
+}
 .HomeTitle-Greet-Pictures img {
     height: 500px;
     border-radius: 20px;
@@ -38,6 +37,7 @@
     display: flex;
     justify-content: center;
     font-size: 50px;
+    margin-bottom: 20px;
 }
 .HomeTitle-LeftBox-Contact div {
     margin: 0 50px;
@@ -50,4 +50,10 @@
 .HomeTitle-LeftBox-Contact a:hover {
     color: rgba(255,255,255,.2);
     transition: .5s;
+}
+
+@media (max-width: 900px) {
+    .HomeTitle-Greet-Pictures img {
+        height: 300px;
+    }
 }

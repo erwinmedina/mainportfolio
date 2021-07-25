@@ -5,8 +5,8 @@ import Typist from "react-typist";
 export default function HomeTitle() {
     return (
         <div className="HomeTitle">
-            <div className="HomeTitle-Greet">
-                <div className="HomeTitle-Greet-LeftBox">
+            <div className="HomeTitle-Greet row">
+                <div className="HomeTitle-Greet-LeftBox col-lg-6 col-md-12 col-sm-12">
                     <Typist cursor={{ show: false }}>
                         <div className="HomeTitle-Words">
                             <h1>Hello there & welcome!</h1>
@@ -23,7 +23,7 @@ export default function HomeTitle() {
                         </a>
                     </FadeIn>
                 </div>
-                <FadeIn delay={2000} transitionDuration={3000}>
+                <FadeIn delay={2000} transitionDuration={3000} className="col-lg-6 col-md-12 col-sm-12">
                     <div className="HomeTitle-Greet-Pictures">
                         <img src="https://i.imgur.com/llvNQ0k.jpg" alt="" />
                     </div>

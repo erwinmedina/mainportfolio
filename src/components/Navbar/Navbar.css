@@ -12,3 +12,6 @@
     font-size: 2em;
     margin: 0 2em;
 }
+.navbar-toggler {
+    width: 100%;
+}

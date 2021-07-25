@@ -17,10 +17,6 @@ function App() {
           <ProjectPage/>
         </Route>
 
-        <Route path="/resumepage">
-          <ResumePage/>
-        </Route>
-
         <Route path="/">
           <HomePage/>
         </Route>

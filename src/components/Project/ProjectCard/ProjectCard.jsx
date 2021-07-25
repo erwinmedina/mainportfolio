@@ -34,9 +34,10 @@ export default function ProjectCard() {
                             <div className="ProjectCardDetails">
                                 <p>{project.name}</p>
                                 <p>{project.short}</p>
-                                <div className="ProjectCardDetailsButtonContainer">
-                                    <button onClick={() => handleDetailButton(project)} className="btn btn-lg btn-primary">Details</button>
-                                </div>
+                                
+                            </div>
+                            <div className="ProjectCardDetailsButtonContainer">
+                                <button onClick={() => handleDetailButton(project)} className="btn btn-lg btn-primary">Details</button>
                             </div>
                         </div>
                     </FadeIn>
@@ -50,7 +51,7 @@ export default function ProjectCard() {
             { details &&
             <div className="popUpRow row">
                 <div className="ProjectCardDetailPop col-lg-12 col-md-12 col-sm-12">
-                    <div className="DetailPopTitle">
+                    <div className="DetailPopTitle sticky-top">
                         <p>{projectDetails.name}</p>
                         <div onClick={handleDetailButton} className="btn btn-danger">X</div>
                     </div>

@@ -28,11 +28,11 @@ export default function HomeSkills() {
         <div className="HomeSkills">
             <h2>List of Skills</h2>
             
-            <div className="buttonContainer">
-                <div onClick={handleClick} className={`btn btn-primary ${buttons[0].selected ? 'selected' : ''}`}>Tools</div>
-                <div onClick={handleClick} className={`btn btn-danger ${buttons[1].selected ? 'selected' : ''}`}>Languages</div>
-                <div onClick={handleClick} className={`btn btn-warning ${buttons[2].selected ? 'selected' : ''}`}>Office</div>
-                <div onClick={handleClick} className={`btn btn-success ${buttons[3].selected ? 'selected' : ''}`}>Design</div>
+            <div className="buttonContainer row">
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-primary ${buttons[0].selected ? 'selected' : ''}`}>Tools</div>
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-danger ${buttons[1].selected ? 'selected' : ''}`}>Languages</div>
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-warning ${buttons[2].selected ? 'selected' : ''}`}>Office</div>
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-success ${buttons[3].selected ? 'selected' : ''}`}>Design</div>
             </div>
             <hr />
                 <div className="skillsContainer">

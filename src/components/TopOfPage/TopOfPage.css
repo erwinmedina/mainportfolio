@@ -7,7 +7,23 @@
 
 .TopOfPage img {
     position: fixed;
-    height: 50px;
-    width: 50px;
+    height: 3rem;
+    width: 3rem;
     filter: invert(1);
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+    .TopOfPage {
+        color: white;
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+    }
+    .TopOfPage img {
+        position: fixed;
+        height: 25px;
+        width: 25px;
+        filter: invert(1);
+    }
 }
