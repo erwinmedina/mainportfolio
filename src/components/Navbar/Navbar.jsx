@@ -24,9 +24,9 @@ export default function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="projectpage">Projects</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">About Me</a>
-            </li>
+            </li> */}
             
             <li className="nav-item">
               <a className="nav-link" target="_blank" href="pdf/ErwinResume.pdf">Resume</a>

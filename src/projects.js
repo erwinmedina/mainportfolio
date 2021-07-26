@@ -14,6 +14,18 @@ export const projects = [
         demo: 'https://pettransfer.herokuapp.com/',
     },
     {
+        name: "Samples and Samples",
+        skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "CSS/Bulma", "AWS"],
+        short: "Pair wines with music, or music with wines!",
+        long: "Group project. Token-based authentication. Create playlists for wines imported through an API. 'Favorite' playlists and see what other users have created! Still a work in progress - slow and steady.",
+        images: [
+            "https://i.imgur.com/c2gEBKt.png", 
+            "https://i.imgur.com/jr7xEzT.png",
+        ],
+        github: 'https://github.com/danny-shindel/samples_samples',
+        demo: '',
+    },
+    {
         name: "Mancala",
         skills: ["HTML", "CSS/Bootstrap", "Javascript", "jQuery"],
         short: "First project! Event driven, player vs player.",
@@ -66,17 +78,6 @@ export const projects = [
         ],
         github: 'https://github.com/erwinmedina/tic-tac-toe',
         demo: 'https://erwinmedina.github.io/tic-tac-toe/',
-    },
-    {
-        name: "Tic Tac Toe",
-        skills: ["HTML", "Javascript", "CSS/Bootstrap"],
-        short: "Just ...Tic Tac Toe",
-        long: "Not a whole lot of details to add to a simple Tic Tac Toe game. Player vs Player.",
-        images: [
-            "https://camo.githubusercontent.com/f5ef01241559d4ec89e3438084835b86c15e8a6ed14307d18dc6c04ec9d17b24/68747470733a2f2f692e696d6775722e636f6d2f4847485534756a2e706e67", 
-            "https://camo.githubusercontent.com/4bb40d3b757a4085bc33769033f0c5f054d2e57e93095808f45f81e8dcedb441/68747470733a2f2f692e696d6775722e636f6d2f365956433853672e706e67",
-        ],
-        github: 'https://github.com/erwinmedina/tic-tac-toe',
-        demo: 'https://erwinmedina.github.io/tic-tac-toe/',
     }
+    
 ]
