@@ -1,4 +1,3 @@
-
 {
   "name": "mainportfolio",
   "version": "0.1.0",
@@ -22,7 +21,7 @@
     "react-typist": "^2.0.5",
     "web-vitals": "^1.1.2"
   },
-  "homepage" : "https://erwinmedina.github.io/mainportfolio",
+  "homepage": "https://erwinmedina.github.io/mainportfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
