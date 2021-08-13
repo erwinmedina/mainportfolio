@@ -1,13 +1,13 @@
-import { Document } from "react-pdf";
-// import {pdf} from "ErwinResume.pdf";
+import { Document, Page } from "react-pdf";
 
 export default function ResumePage() {
     return (
         <div className="resumePage">
-            {/* <Document
-                file={pdf}
+            <Document
+                file="./ErwinResume.pdf"
             >
-            </Document> */}
+                <Page />
+            </Document>
         </div>
     )
 }

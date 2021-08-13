@@ -1,4 +1,5 @@
 import { HashRouter, Link } from "react-router-dom";
+import SHIT from "./ErwinResume.pdf";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -30,8 +31,7 @@ export default function Navbar() {
               </li> */}
               
               <li className="nav-item">
-                <Link className="nav-link" target="_blank" to="pdf/ErwinResume.pdf">Resume</Link>
-                {/* <a className="nav-link" target="_blank" href="pdf/ErwinResume.pdf">Resume</a> */}
+                <Link className="nav-link" to="/resume">Resume</Link>
               </li>
             </ul>
           </div>
