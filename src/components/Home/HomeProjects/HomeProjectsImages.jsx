@@ -4,12 +4,32 @@ import "./HomeProjectsImages.css";
 
 export default function HomeProjectImages() {
     const fadeImages = [
-        'images/Mancala.png',
-        'images/Liverpool.png',
-        'images/Gamechanger.png',
-        'images/PetTransfer.png',
-        'images/TicTacToe.png',
-    ];
+        {
+            'name': 'Mancala',
+            'img': 'images/Mancala.png'
+        },
+        {
+            'name': 'Liverpool Cafe',
+            'img': 'images/Liverpool.png'
+        },
+        {
+            'name': 'FootballDeets',
+            'img': 'images/FootballDeets.png'
+        },
+        {
+            'name': 'GameChanger',
+            'img': 'images/Gamechanger.png'
+        },
+        {
+            'name': 'Pet Transfer',
+            'img': 'images/PetTransfer.png'
+        },
+        {
+            'name': 'Tic Tac Toe',
+            'img': 'images/TicTacToe.png'
+        }
+    ]
+
     const properties = {
         duration: 3000,
         transitionDuration: 1000,
@@ -21,7 +41,18 @@ export default function HomeProjectImages() {
     return (
         <div className="slide-container">
             <Fade {...properties}>
-                <div className="each-fade">
+                {fadeImages.map(item =>
+                    <div className="each-fade">
+                        <div className="image-container">
+                            <img src={item.img} />
+                        </div>
+                        <span>{item.name}</span>
+                    </div>
+                    )
+                    }
+
+
+                {/* <div className="each-fade">
                     <div className="image-container">
                         <img src={fadeImages[0]} />
                     </div>
@@ -51,6 +82,12 @@ export default function HomeProjectImages() {
                     </div>
                     <span>TicTacToe</span>
                 </div>
+                <div className="each-fade">
+                    <div className="image-container">
+                        <img src={fadeImages[5]} />
+                    </div>
+                    <span>FootballDeets</span>
+                </div> */}
             </Fade>
       </div>
     )

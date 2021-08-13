@@ -1,9 +1,9 @@
 export const projects = [
     {
         name: "Pet Transfer",
-        skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "CSS/Bootstrap", "Heroku"],
+        skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "Google Maps API", "CSS/Bootstrap", "Heroku"],
         short: "A pet adoption application. We help find your pet a home!",
-        long: "Capstone Project. Developed using React. This app is designed to help a user adopt a pet in their area that needs a home. Uses Mongo as a database, and to this day is still worked on.",
+        long: "Capstone project. Developed using React. Utilizes a Google Maps API to display pets up for adoption in your vicinity. Uses Mongo for a user/pet database. Token based user authentication.",
         images: [
             "https://camo.githubusercontent.com/c9b9229b69e07278a4b2da464fde0556aca2e3cceff5d76defb2908d812ac195/68747470733a2f2f692e696d6775722e636f6d2f49346b5951455a2e706e67",
             "https://camo.githubusercontent.com/307471678f78ef2f03f8b503fc6e79e82d27a4dfb101438ce4f0db95cceb8e60/68747470733a2f2f692e696d6775722e636f6d2f7a676a446335642e706e67", 
@@ -26,10 +26,25 @@ export const projects = [
         demo: '',
     },
     {
+        name: "FootballDeets",
+        skills: ["HTML", "Javascript", "CSS/Bootstrap", "React"],
+        short: "A single page application that provides soccer/football details!",
+        long: "An application that utilizes React & API calls. I wanted to see soccer details quickly and easily at the click of a button, but also practice utilizing API's. This project definitely helped with that.",
+        images: [
+            "https://i.imgur.com/OmKGr74.png", 
+            "https://i.imgur.com/lOVYbcV.png",
+            "https://i.imgur.com/NQpCiln.png",
+            "https://i.imgur.com/ckiGcvm.png",
+            "https://i.imgur.com/8pdGjqZ.png"
+        ],
+        github: 'https://github.com/erwinmedina/FootballDeets',
+        demo: 'https://footballdeets.herokuapp.com/',
+    },
+    {
         name: "Mancala",
         skills: ["HTML", "CSS/Bootstrap", "Javascript", "jQuery"],
         short: "First project! Event driven, player vs player.",
-        long: "First project created under General Assembly, and one of my favorites. Simple design, win/loss logic, and has an optional color picker. If you aren't familiar with the rules, hover over the 'help' button.",
+        long: "First project created under General Assembly. Simple design, win/loss logic, and has an optional color picker. If you aren't familiar with the rules, hover over the 'help' button.",
         images: [
             "https://github.com/erwinmedina/mancala/raw/main/images/1.png", 
             "https://github.com/erwinmedina/mancala/raw/main/images/2.png",
@@ -57,7 +72,7 @@ export const projects = [
         name: "GameChanger",
         skills: ["Python", "PostgreSQL", "Django", "Heroku"],
         short: "Web Application revolved around sharing favorite games.",
-        long: "Group project [4 ppl]! Share your favorite games with other users. Add games to your list and favorite other user's games! Uses PostgresSQL for a database, and heroku for deployment.",
+        long: "Group project [4 people]! Share your favorite games with other users. Add games to your list and favorite other user's games! Uses PostgresSQL for a database, and heroku for deployment.",
         images: [
             "https://camo.githubusercontent.com/3a9deddb9e04071e05a15465452f53519f96aeb2f163172b8a4166079a7c7949/68747470733a2f2f696d6775722e636f6d2f466873796238622e706e67", 
             "https://camo.githubusercontent.com/2e0bf58d8a49b62e518d5121a1e314751290986b5241d7c03ae28cb7b0934fb4/68747470733a2f2f696d6775722e636f6d2f7a7159776931752e706e67",

@@ -1,5 +1,6 @@
 {
   "name": "mainportfolio",
+  "homepage": "https://erwinmedina.github.io/mainportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^3.2.3",
     "json-loader": "^0.5.7",
     "mongoose": "^5.12.14",
     "react": "^17.0.2",
@@ -21,7 +23,6 @@
     "react-typist": "^2.0.5",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://erwinmedina.github.io/mainportfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

@@ -105,7 +105,8 @@
     max-height: 20em;
 }
 .DetailPopTop img {
-    max-height: 20em;
+    max-height: 200px;
+    background-size: contain;
     border-radius: 20px;
     max-width: 100%;
 }

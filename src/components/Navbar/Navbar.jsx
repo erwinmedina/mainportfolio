@@ -4,7 +4,6 @@ import "./Navbar.css";
 export default function Navbar() {
 
   return (
-    <HashRouter basename="/">
       <div className="navbarPage">
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
           <button
@@ -20,24 +19,23 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
-              <li className="nav-item active">
-                <Link to="/">Home</Link>
+              <li className="nav-item">
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/projectpage">Projects</Link>
+                <Link className="nav-link" to="/projectpage">Projects</Link>
               </li>
               {/* <li className="nav-item">
                 <a className="nav-link" href="#">About Me</a>
               </li> */}
               
               <li className="nav-item">
-                <Link to="pdf/ErwinResume.pdf">Resume</Link>
+                <Link className="nav-link" target="_blank" to="pdf/ErwinResume.pdf">Resume</Link>
                 {/* <a className="nav-link" target="_blank" href="pdf/ErwinResume.pdf">Resume</a> */}
               </li>
             </ul>
           </div>
         </nav>
       </div>
-    </HashRouter>
-  );
+        );
 }
