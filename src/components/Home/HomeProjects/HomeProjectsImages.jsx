@@ -28,7 +28,6 @@ export default function HomeProjectImages() {
             'name': 'Tic Tac Toe',
             'img': 'images/TicTacToe.png'
         }
-        
     ]
 
     const properties = {
