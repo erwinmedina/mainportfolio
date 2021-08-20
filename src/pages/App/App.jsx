@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import TopOfPage from "../../components/TopOfPage/TopOfPage";
 import ProjectPage from "../ProjectPage/ProjectPage"
 import './App.css';
-import ResumePage from '../ResumePage/ResumePage';
 
 function App() {
   return (
@@ -15,9 +14,6 @@ function App() {
       <Switch>
         <Route path="/projectpage">
           <ProjectPage/>
-        </Route>
-        <Route path="/resume">
-          <ResumePage/>
         </Route>
 
         <Route path="/">
