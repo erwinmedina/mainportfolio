@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <TopOfPage/>
-
       <Switch>
         <Route path="/projectpage">
           <ProjectPage/>
