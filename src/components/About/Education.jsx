@@ -59,6 +59,7 @@ export default function Education() {
                             </div>
                             <div className="educationBlockMajor">
                                 <p>Certification: <br/>Software Engineering</p>
+                                FLUFF
                             </div>
                         </div>
                     </div>
