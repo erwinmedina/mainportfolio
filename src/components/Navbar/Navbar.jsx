@@ -26,6 +26,9 @@ export default function Navbar() {
                 <Link className="nav-link" to="/projectpage">Projects</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/aboutpage">About Me</Link>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" target="_blank" href={process.env.PUBLIC_URL + '/pdf/sample.pdf'}>Resume</a>
               </li>
             </ul>

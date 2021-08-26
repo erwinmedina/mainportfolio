@@ -4,7 +4,6 @@
 .HomePageTop {
     display: grid;
     margin: 0 5em;
-    /* grid-template-columns: 1fr 1fr; */
     justify-content: center;
     align-items: center;
 }

@@ -3,6 +3,7 @@ import HomePage from "../HomePage/HomePage";
 import Navbar from '../../components/Navbar/Navbar';
 import TopOfPage from "../../components/TopOfPage/TopOfPage";
 import ProjectPage from "../ProjectPage/ProjectPage"
+import AboutPage from "../AboutPage/AboutPage";
 import './App.css';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route path="/projectpage">
           <ProjectPage/>
+        </Route>
+        <Route path="/aboutpage">
+          <AboutPage/>
         </Route>
 
         <Route path="/">

@@ -50,44 +50,6 @@ export default function HomeProjectImages() {
                     </div>
                     )
                     }
-
-
-                {/* <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[0]} />
-                    </div>
-                    <span>Mancala</span>
-                </div>
-                <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[1]} />
-                    </div>
-                    <span>Liverpool Cafe</span>
-                </div>
-                <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[2]} />
-                    </div>
-                    <span>GameChanger</span>
-                </div>
-                <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[3]} />
-                    </div>
-                    <span>Pet Transfer</span>
-                </div>
-                <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[4]} />
-                    </div>
-                    <span>TicTacToe</span>
-                </div>
-                <div className="each-fade">
-                    <div className="image-container">
-                        <img src={fadeImages[5]} />
-                    </div>
-                    <span>FootballDeets</span>
-                </div> */}
             </Fade>
       </div>
     )
