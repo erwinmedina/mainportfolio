@@ -59,8 +59,23 @@ export default function Education() {
                             </div>
                             <div className="educationBlockMajor">
                                 <p>Certification: <br/>Software Engineering</p>
-                                FLUFF
                             </div>
+                        </div>
+                        <div className="educationBlockBot">
+                            <p>Coursework</p>
+                            <hr />
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">HTML / CSS</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">JavaScript</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">jQuery</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">MongoDB</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Express</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">NodeJS</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Python</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">PostgreSQL</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">React</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Bootstrap</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Django</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Git/Github</li>
                         </div>
                     </div>
                 }
