@@ -17,9 +17,9 @@ export default function AboutPage() {
             <br/>
             <br/>
             <br/>
-            <h2>Personal Interest</h2>
+            {/* <h2>Personal Interest</h2>
             <hr />
-            <div className="Interest"></div>
+            <div className="Interest"></div> */}
         </div>
     )
 }

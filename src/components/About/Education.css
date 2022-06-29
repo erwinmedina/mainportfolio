@@ -12,7 +12,7 @@
 }
 
 .educationBlock {
-    width: 70vw;
+    /* width: 70vw; */
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -22,6 +22,11 @@
     margin-bottom: 0;
     margin: 5px;
 }
+
+.educationBlockBot li {
+    font-size: 20px;
+}
+
 .educationBlockTop {
     display: flex;
     justify-content: space-around;

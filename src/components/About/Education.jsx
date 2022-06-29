@@ -21,7 +21,7 @@ export default function Education() {
     }
 
     return (
-        <div className="education container">
+        <div className="d-flex flex-column d-sm-flex flex-sm-row education container">
             <div className={`${UCI ? 'show' : 'hide'} educationUCI`}>
                 <img onClick={handleUCI} src={`${process.env.PUBLIC_URL}/images/UCILogo.png`} alt="UCI" />
                 {!GA && 
@@ -39,18 +39,18 @@ export default function Education() {
                         <div className="educationBlockBot">
                             <p>Coursework</p>
                             <hr />
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Single Variable Calculus</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Multivariable Calculus</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Linear Algebra</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Abstract Mathematics</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Numerical Analysis</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Differential Equations</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Partial Differential Equations</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Abstract Algebra</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Group Theory</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Data Modeling</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Probability</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Elementary Analysis</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Single Variable Calculus</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Multivariable Calculus</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Linear Algebra</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Abstract Mathematics</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Numerical Analysis</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Differential Equations</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Partial Differential Equations</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Abstract Algebra</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Group Theory</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Data Modeling</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Probability</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Elementary Analysis</li>
                         </div>
 
                     </div>
@@ -73,18 +73,18 @@ export default function Education() {
                         <div className="educationBlockBot">
                             <p>Coursework</p>
                             <hr />
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">HTML / CSS</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">JavaScript</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">jQuery</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">MongoDB</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Express</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">NodeJS</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Python</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">PostgreSQL</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">React</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Bootstrap</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Django</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Git/Github</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">HTML / CSS</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">JavaScript</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">jQuery</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">MongoDB</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Express</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">NodeJS</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Python</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">PostgreSQL</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">React</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Bootstrap</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Django</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Git/Github</li>
                         </div>
                     </div>
                 }
@@ -106,9 +106,9 @@ export default function Education() {
                         <div className="educationBlockBot">
                             <p>Coursework</p>
                             <hr />
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Database Management</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Python</li>
-                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">C++</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Database Management</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">Python</li>
+                            <li className="col-12 col-lg-3 m-0 m-lg-2 mt-2 btn btn-sm btn-outline-dark">C++</li>
                         </div>
 
                     </div>
