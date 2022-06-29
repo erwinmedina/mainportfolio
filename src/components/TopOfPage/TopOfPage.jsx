@@ -12,7 +12,7 @@ export default function TopOfPage() {
     return (
         <div className="TopOfPage">
             <div onClick={scrollToTop}>
-                <img src="https://image.flaticon.com/icons/png/512/992/992703.png" alt="" />
+                <img src="https://cdn-icons-png.flaticon.com/512/992/992703.png" alt="" />
             </div>
         </div>
     )

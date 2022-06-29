@@ -11,8 +11,11 @@ export default function HomeSkillsLanguages() {
                 <i class="devicon-python-plain colored">
                     <span>Python</span>
                 </i>
-                <i class="devicon-c-plain colored">
-                    <span>C</span>
+                <i class="devicon-cplusplus-plain">
+                    <span>C++</span>
+                </i>
+                <i class="devicon-mysql-plain colored">
+                    <span>SQL</span>
                 </i>
             </div>
         </FadeIn>

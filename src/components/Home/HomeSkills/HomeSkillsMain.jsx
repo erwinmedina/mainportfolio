@@ -33,8 +33,8 @@ export default function HomeSkillsMain() {
                         <i className="devicon-python-plain colored">
                             <span>Python</span>
                         </i>
-                        <i className="devicon-c-plain colored">
-                            <span>C</span>
+                        <i className="devicon-cplusplus-plain">
+                            <span>C++</span>
                         </i>
                         <i className="devicon-heroku-original colored">
                             <span>Heroku</span>
