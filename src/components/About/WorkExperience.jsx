@@ -19,7 +19,6 @@ export default function WorkExperience() {
         setRevel(!revel);
         setKnox(!knox);
     }
-    // EXTRA LINE
 
     return (
         <div className="education container">
