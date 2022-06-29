@@ -2,14 +2,22 @@ import "./Education.css";
 import {useState} from 'react';
 
 export default function Education() {
+
+    const [Fullerton, setFullerton] = useState(true);
     const [UCI, setUCI] = useState(true);
     const [GA, setGA] = useState(true);
 
     function handleUCI() {
         setGA(!GA);
+        setFullerton(!Fullerton);
     }
     function handleGA() {
         setUCI(!UCI);
+        setFullerton(!Fullerton);
+    }
+    function handleFullerton() {
+        setUCI(!UCI);
+        setGA(!GA);
     }
 
     return (
@@ -24,7 +32,7 @@ export default function Education() {
                                 <p>Graduated: June 2017</p>
                             </div>
                             <div className="educationBlockMajor">
-                                <p>Major: Applied Mathematics</p>
+                                <p>Bachelors: Applied Mathematics</p>
                                 <p>Minor: Earth System Science</p>
                             </div>
                         </div>
@@ -47,6 +55,7 @@ export default function Education() {
 
                     </div>
                 }
+                <p className="year">2012-2017</p>
             </div>
             <div className={`${GA ? 'show' : 'hide'} educationGA`}>
                 <img onClick={handleGA} src={`${process.env.PUBLIC_URL}/images/GALogo.png`} alt="GA" />
@@ -79,6 +88,32 @@ export default function Education() {
                         </div>
                     </div>
                 }
+                <p className="year">2021</p>
+            </div>
+            <div className={`${Fullerton ? 'show' : 'hide'} educationFullerton`}>
+                <img onClick={handleFullerton} src={`${process.env.PUBLIC_URL}/images/FullertonLogo.png`} alt="Fullerton" />
+                {!GA && 
+                    <div className="educationBlock">
+                        <div className="educationBlockTop">
+                            <div className="educationBlockNameDate">
+                                <p>California State University, Fullerton</p>
+                                <p>Graduated: June 2024</p>
+                            </div>
+                            <div className="educationBlockMajor">
+                                <p>Masters: <br/>Computer Science</p>
+                            </div>
+                        </div>
+                        <div className="educationBlockBot">
+                            <p>Coursework</p>
+                            <hr />
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Database Management</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">Python</li>
+                            <li className="list-item m-2 col-4 btn btn-sm btn-outline-dark">C++</li>
+                        </div>
+
+                    </div>
+                }
+                <p className="year">2022-2024</p>
             </div>
         </div>
     )

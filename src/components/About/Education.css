@@ -36,6 +36,10 @@
     margin: 0em auto !important;
 }
 
+.year {
+    color: white;
+}
+
 .hide {
     -webkit-animation: out 700ms ease both;
     animation: out 0ms ease both;
