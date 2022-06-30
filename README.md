@@ -1,1 +1,1 @@
-This site was deployed to [Github Pages](erwinmedina.github.io/mainportfolio/#/).
+This site was deployed to [Github Pages](https://erwinmedina.github.io/mainportfolio/#/).
