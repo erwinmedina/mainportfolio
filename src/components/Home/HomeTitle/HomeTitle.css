@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-family: 'Handlee';
     height: 100%;
 }
@@ -26,8 +26,7 @@
 .HomeTitle-Greet-Pictures img {
     height: 500px;
     border-radius: 20px;
-    box-shadow: 25px 25px 10px 0px rgba(255,255,255,1);
-    /* box-shadow: rgba(0, 51, 204, 0.4) 5px 5px, rgba(0, 57, 230, 0.3) 10px 10px, rgba(0, 64, 255, 0.2) 15px 15px, rgba(26, 83, 255, 0.1) 20px 20px, rgba(51, 102, 255, 0.05) 25px 25px; */
+    box-shadow: 25px 25px 10px 0px rgba(0,0,0,.5);
 }
 
 .HomeTitle-Words span p {
@@ -48,7 +47,7 @@
     transition: .5s;
 }
 .HomeTitle-LeftBox-Contact a:hover {
-    color: rgba(255,255,255,.2);
+    color: rgba(0,0,0,.5);
     transition: .5s;
 }
 

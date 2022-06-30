@@ -1,5 +1,5 @@
 .HomeSkills {
-    color: white;
+    color: black;
     height: auto;
     margin-top: 5em;
 }
@@ -52,7 +52,7 @@ i {
 
 i span {
     font-family: 'Handlee';
-    color: white;
+    color: black;
     margin: 1.5em auto;
     font-size: .3em;
 }

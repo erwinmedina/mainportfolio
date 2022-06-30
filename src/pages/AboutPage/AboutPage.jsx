@@ -7,13 +7,21 @@ export default function AboutPage() {
         <div className="aboutPage">
             <h2>Education</h2>
             <hr />
-            <div className="Education"><Education/></div>
+            
+            <div className="Education">
+                <Education/>
+            </div>
+            
             <br/>
             <br/>
             <br/>
             <h2>Work Experience</h2>
             <hr />
-            <div className="WorkExperience"><WorkExperience/></div>
+
+            <div className="WorkExperience">
+                <WorkExperience/>
+            </div>
+            
             <br/>
             <br/>
             <br/>
