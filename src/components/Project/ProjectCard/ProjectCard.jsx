@@ -1,7 +1,6 @@
 import { Fade } from 'react-slideshow-image';
-import { motion } from "framer-motion";
 import 'react-slideshow-image/dist/styles.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import FadeIn from "react-fade-in";
 import { projects } from "../../../projects.js";
 import "./ProjectCard.css";
@@ -10,6 +9,10 @@ export default function ProjectCard() {
     const [details, setDetails] = useState(false);
     const [projectDetails, setProjectDetails] = useState({});
     
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     const properties = {
         duration: 2000,
         transitionDuration: 1000,
@@ -43,10 +46,6 @@ export default function ProjectCard() {
                     </FadeIn>
                 ))}
             </div>
-
-            
-
-
 
             { details &&
             <div className="popUpRow row">
@@ -84,9 +83,14 @@ export default function ProjectCard() {
                             <i class="fab fa-github"></i>
                             Github</a>
 
-                        <a href={projectDetails.demo}  target="_blank" className="btn btn-primary">
-                            <i class="fas fa-laptop"></i>
-                            Demo</a>
+                        {projectDetails.demo ? 
+                            <a href={projectDetails.demo}  target="_blank" className="btn btn-primary">
+                                <i class="fas fa-laptop"></i>
+                                Demo
+                            </a>
+                            :
+                            ""
+                        }
                     </div>
                 </div>
             </div>

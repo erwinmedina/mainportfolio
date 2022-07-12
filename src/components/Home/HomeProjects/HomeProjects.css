@@ -12,3 +12,8 @@
     font-size: 4em;
     margin: 20px 0 20px 0 !important;
 }
+
+.HomeProjects a {
+    text-decoration: none !important;
+    color: black;
+}

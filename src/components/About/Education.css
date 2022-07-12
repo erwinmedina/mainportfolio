@@ -50,10 +50,10 @@
     animation: in 700ms ease both;
 }
 
-img:hover {
+/* img:hover {
     transform: scale(1.1);
     transition: 1s;
-}
+} */
 
 @media (max-width: 900px) {
     .educationBlock {

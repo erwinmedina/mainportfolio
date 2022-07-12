@@ -1,6 +1,5 @@
 import "./WorkExperience.css";
 import {useState} from 'react';
-import FadeIn from "react-fade-in";
 import Work_Knox from "./Work_Knox";
 import Work_Revel from "./Work_Revel";
 import Work_VCI from "./Work_VCI";

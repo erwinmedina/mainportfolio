@@ -13,7 +13,7 @@ export default function HomeSkillsDesign() {
                     <span>Photoshop</span>
                 </i>
                 <i className="HomeSkillsOffice-Icon">
-                    <img src="https://cdn-icons.flaticon.com/png/512/5768/premium/5768781.png?token=exp=1656529587~hmac=142ed87418ae855d5c675c5286c3d9ad" alt="" />
+                    <img src="https://img.icons8.com/fluency/344/autocad.png" alt="" />
                     <span>AutoCAD</span>
                 </i>
             </div>

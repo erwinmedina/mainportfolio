@@ -1,4 +1,5 @@
 import { Fade } from 'react-slideshow-image';
+import { Link } from "react-router-dom";
 import 'react-slideshow-image/dist/styles.css'
 import "./HomeProjectsImages.css";
 
@@ -44,12 +45,13 @@ export default function HomeProjectImages() {
                 {fadeImages.map(item =>
                     <div className="each-fade">
                         <div className="image-container">
-                            <img src={item.img} />
+                            <Link to="/projectpage">
+                                <img src={item.img} />
+                            </Link>
                         </div>
                         <span>{item.name}</span>
                     </div>
-                    )
-                    }
+                )}
             </Fade>
       </div>
     )
