@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# git add -A
+# git commit -m "Message"
+# git push origin main
+# git checkout gh-pages
+# git merge main
+# git checkout main
+# git push origin main
