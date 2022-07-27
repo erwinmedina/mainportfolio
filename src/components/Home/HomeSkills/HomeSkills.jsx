@@ -26,7 +26,7 @@ export default function HomeSkills() {
 
     return (
         <div className="HomeSkills">
-            <h2>List of Skills</h2>
+            <h2>Skills List</h2>
             
             <div className="buttonContainer row">
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-primary ${buttons[0].selected ? 'selected' : ''}`}>Tools</div>

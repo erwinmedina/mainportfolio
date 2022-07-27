@@ -5,7 +5,7 @@ export default function ProjectPage() {
 
     return (
         <div className="ProjectPage">
-            <h2>List of Projects</h2>
+            <h2>Project List</h2>
             <hr />
             <ProjectCard/>
         </div>

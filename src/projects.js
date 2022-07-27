@@ -14,6 +14,21 @@ export const projects = [
         demo: 'https://pettransfer.herokuapp.com/',
     },
     {
+        name: "The Golden Boot",
+        skills: ["HTML", "Javascript", "CSS/Bootstrap", "Async API Calls", "React"],
+        short: "A single page application that provides soccer/football details!",
+        long: "An application that utilizes asynchronous API calls within React. My goal for this project was to quickly determine game details at the ease of a button. Working on this project helped me with handling async API calls and manipulating the API's as well! Also one of my first applications where I kept mobile accessibility in mind!",
+        images: [
+            "https://i.imgur.com/KggRoBJ.png", 
+            "https://i.imgur.com/092wT3w.png",
+            "https://i.imgur.com/ZEuyqcs.png",
+            "https://i.imgur.com/eQPFwVI.jpg",
+            "https://i.imgur.com/cwiInjd.png"
+        ],
+        github: 'https://github.com/erwinmedina/the-golden-boot',
+        demo: 'https://the-golden-boots.herokuapp.com/',
+    },
+    {
         name: "Samples and Samples",
         skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "CSS/Bulma", "AWS"],
         short: "Pair wines with music, or music with wines!",
@@ -24,21 +39,6 @@ export const projects = [
         ],
         github: 'https://github.com/danny-shindel/samples_samples',
         demo: '',
-    },
-    {
-        name: "FootballDeets",
-        skills: ["HTML", "Javascript", "CSS/Bootstrap", "React"],
-        short: "A single page application that provides soccer/football details!",
-        long: "An application that utilizes React & API calls. I wanted to see soccer details quickly and easily at the click of a button, but also practice utilizing API's. This project definitely helped with that.",
-        images: [
-            "https://i.imgur.com/OmKGr74.png", 
-            "https://i.imgur.com/lOVYbcV.png",
-            "https://i.imgur.com/NQpCiln.png",
-            "https://i.imgur.com/ckiGcvm.png",
-            "https://i.imgur.com/8pdGjqZ.png"
-        ],
-        github: 'https://github.com/erwinmedina/FootballDeets',
-        demo: 'https://footballdeets.herokuapp.com/',
     },
     {
         name: "Mancala",

@@ -14,8 +14,8 @@ export default function HomeProjectImages() {
             'img': 'images/Liverpool.png'
         },
         {
-            'name': 'FootballDeets',
-            'img': 'images/FootballDeets.png'
+            'name': 'The Golden Boot',
+            'img': 'images/TheGoldenBoot.png'
         },
         {
             'name': 'GameChanger',
