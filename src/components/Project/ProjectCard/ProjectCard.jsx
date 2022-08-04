@@ -21,9 +21,25 @@ export default function ProjectCard() {
     };
 
     function handleDetailButton(project) {
-        setProjectDetails(project);
         setDetails(!details);
+        setProjectDetails(project);
     }
+    
+    useEffect(() => {
+        const keyDownHandler = event => {
+        console.log('User pressed: ', event.key);
+    
+        if (event.key === 'Escape' && details) {
+            event.preventDefault();
+            console.log("Yup. Pressed Escape");
+            handleDetailButton();
+        }
+        };
+        document.addEventListener('keydown', keyDownHandler);
+        return () => {
+            document.removeEventListener('keydown', keyDownHandler);
+        };
+    }, [projectDetails]);
     
     return (
         <div className="ProjectCard">

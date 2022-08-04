@@ -7,8 +7,8 @@ import "./HomeSkills.css";
 
 export default function HomeSkills() {
     const [buttons, setButtons] = useState([
-        { name: 'Tools', selected: true},
-        { name: 'Languages', selected: false},
+        { name: 'Languages', selected: true},
+        { name: 'Tools', selected: false},
         { name: 'Office', selected: false},
         { name: 'Design', selected: false},
     ])
@@ -29,8 +29,8 @@ export default function HomeSkills() {
             <h2>Skills List</h2>
             
             <div className="buttonContainer row">
-                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-primary ${buttons[0].selected ? 'selected' : ''}`}>Tools</div>
-                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-danger ${buttons[1].selected ? 'selected' : ''}`}>Languages</div>
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-danger ${buttons[0].selected ? 'selected' : ''}`}>Languages</div>
+                <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-primary ${buttons[1].selected ? 'selected' : ''}`}>Tools</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-warning ${buttons[2].selected ? 'selected' : ''}`}>Office</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-success ${buttons[3].selected ? 'selected' : ''}`}>Design</div>
             </div>
@@ -39,10 +39,10 @@ export default function HomeSkills() {
                     {(() => {
                         
                             if (buttons[0].selected) {
-                                return <HomeSkillsMain/>
+                                return <HomeSkillsLanguages/>
                             }
                             else if (buttons[1].selected) {
-                                return <HomeSkillsLanguages/>
+                                return <HomeSkillsMain/>
                             }
                             else if (buttons[2].selected) {
                                 return <HomeSkillsOffice/>

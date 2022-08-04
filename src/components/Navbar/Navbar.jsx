@@ -29,7 +29,7 @@ export default function Navbar() {
                 <Link className="nav-link" to="/aboutpage">About Me</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" target="_blank" href={process.env.PUBLIC_URL + '/pdf/20220624 Erwin Medina Resume.pdf'}>Resume</a>
+                <a className="nav-link" target="_blank" href={process.env.PUBLIC_URL + '/pdf/Resume.pdf'}>Resume</a>
               </li>
             </ul>
           </div>
