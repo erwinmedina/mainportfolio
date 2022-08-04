@@ -21,11 +21,7 @@
     box-shadow: rgba(73, 73, 73, 0.4) -5px 5px, rgba(73, 73, 73, 0.3) -10px 10px, rgba(73, 73, 73, 0.2) -15px 15px;
     min-height: 420px;
 }
-.ProjectCardImage {
-    /* padding: 10px; */
-}
 .ProjectCardImage img {
-    /* object-fit:fill; */
     object-fit: cover;
     border-radius: 5px 5px 0 0;
     margin: 0 0 10px 0;
