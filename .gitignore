@@ -28,3 +28,8 @@ yarn-error.log*
 # npm run build
 # git push origin main
 # or something.
+
+#npm run deploy
+#npm run build
+#git push
+# should be good enough i think.

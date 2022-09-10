@@ -1,0 +1,157 @@
+.masterCard {
+    display: flex;
+    margin: 20px;
+    position: relative;
+}
+
+.hidden {
+    position: relative;
+    z-index: -1;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    max-height: 559px;
+    margin-left: -50%;
+    padding: 5px 0;
+    background: white;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0 5px 5px 0;
+    animation: 2s slide-left;
+    transition: width 2s, height 2s, opacity 1s;
+}
+.unhidden {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: white;
+    border-radius: 0 5px 5px 0;
+    width: 150px;
+    height: 559px;
+    max-height: 559px;
+    padding: 5px 0;
+    opacity: 1;
+    animation: 1.5s slide-right;
+    transition: width 1s, opacity 3s;
+}
+
+.coursework > div {
+    width: 100%;
+    white-space: normal
+}
+
+@keyframes slide-right {
+    from {
+        z-index: -1;
+        margin-left: -50%;
+    }
+    to {
+        z-index: -1;
+        margin-left: 0%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        z-index: -1;
+        margin-left: 0%;
+    }
+    to {
+        z-index: -1;
+        margin-left: -50%;
+    }
+}
+
+.unhidden > div > hr {
+    margin: 4px 0;
+    width: 95%;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.coursework {
+    padding: 3px 5px 3px 5px;
+    position: relative;
+}
+
+.HomeEducationCards {
+    display: flex;
+    justify-content: center;
+}
+
+.HomeEducation hr {
+    border: 1px solid rgba(255,255,255,.3);
+    width: 70%;
+    margin-bottom: 2em;
+}
+.HomeEducation h2 {
+    font-size: 4em;
+    margin: 20px 0 20px 0 !important;
+}
+
+.HomeEducationCards .card {
+    width: 20rem;
+    padding: 0;
+    border: none;
+    position: relative;
+}
+
+
+.HomeEducationCards img {
+    padding: 2rem;
+    background: lightslategray;
+    margin: 0 auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.CWContainer {
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HomeEducation-CardBody > h5 {
+    font-weight: bold;
+    height: 50px;
+    margin: 0 0 10px 0;
+}
+.HomeEducation-CardBody > .card-text {
+    font-size: large;
+}
+
+@keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  }
+
+@media (max-width: 1300px) {
+    .HomeEducationCards {
+        flex-direction: column;
+    }
+    .masterCard {
+        margin: 20px auto;
+        flex-direction: column;
+    }
+    .unhidden {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 3px auto;
+        transition: opacity 1s;
+    }
+    .hidden {
+        transition: width 2s, height 0s, opacity 1s;
+    }
+}
