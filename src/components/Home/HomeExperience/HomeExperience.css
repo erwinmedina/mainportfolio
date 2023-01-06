@@ -1,0 +1,54 @@
+
+.HomeExperience {
+    margin: 5em;
+}
+
+.hidden2 {
+    position: relative;
+    z-index: -1;
+    width: 0px;
+    height: 572px;
+    opacity: 0;
+    max-height: 572px;
+    margin-left: -50%;
+    padding: 5px 0;
+    background: white;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0 5px 5px 0;
+    animation: 2s slide-left;
+    transition: width 2s, height 2s, opacity 1s;
+}
+.unhidden2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: white;
+    border-radius: 0 15px 15px 0;
+    width: 150px;
+    height: 572px;
+    max-height: 572px;
+    padding: 5px 0;
+    opacity: 1;
+    animation: 1.5s slide-right;
+    transition: width 1s, opacity 3s;
+}
+
+@media (max-width: 1300px) {
+    .unhidden2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 15px auto 0 auto;
+        transition: opacity 1s;
+    }
+    .hidden2 {
+        height: 0;
+        transition: width 2s, height 0s, opacity 1s;
+    }
+}

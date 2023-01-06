@@ -26,7 +26,7 @@ export default function HomeSkillsMain() {
                         <i className="devicon-nodejs-plain colored">
                             <span>Node</span>
                         </i>
-                        <i className="devicon-react-original colored">
+                        <i className="devicon-react-original">
                             <span>React</span>
                         </i>
                 </div>

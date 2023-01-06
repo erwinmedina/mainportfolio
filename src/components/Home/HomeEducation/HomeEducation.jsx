@@ -5,11 +5,12 @@ import { useState } from "react";
 import HomeEducationCard from "./HomeEducationCard";
 
 export default function HomeEducation() {
-    const [courses, setCourses] = useState({
-        0: false,
-        1: false,
-        2: false
-    })
+    const [courses, setCourses] = useState(
+        {
+            0: false,
+            1: false,
+            2: false
+        })
 
     return (
         <div className="HomeEducation">

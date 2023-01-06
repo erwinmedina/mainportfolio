@@ -29,6 +29,20 @@ export const projects = [
         demo: 'https://the-golden-boots.herokuapp.com/',
     },
     {
+        name: "Pokedex",
+        skills: ["HTML", "CSS/Bootstrap", "Javascript", "React", "Async API Calls"],
+        short: "A single page application providing you pokemon details for generations I-VII.",
+        long: "This application utilizes asynchronous API calls within React. My goal for this project was to practice handling larger datasets and manipulating it to achieve filtered results without over-calling the API. Mobile accessibility still needs work. But the final product has been rewarding, seeing each individual piece work as intended!",
+        images: [
+            "https://i.imgur.com/vZbejDJ.png",
+            "https://i.imgur.com/gYuDRNj.png",
+            "https://i.imgur.com/nh7vUKT.png",
+            "https://i.imgur.com/17J53OZ.png"
+        ],
+        github: 'https://github.com/erwinmedina/pokedex',
+        demo: 'https://erwinmedina.github.io/pokedex/',
+    },
+    {
         name: "Samples and Samples",
         skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "CSS/Bulma", "AWS"],
         short: "Pair wines with music, or music with wines!",

@@ -22,7 +22,7 @@ export default function HomeEducationCard({edu, index, courses, setCourses}) {
         <div className="masterCard">
             <div className="card">
                 <div className="card-top">
-                    <img className="card-img-top" src={edu.logo} alt="Card image cap"/>
+                    <img className={`${courses[index] ? 'unhidden_border' : ''} card-img-top`} src={edu.logo} alt="Card image cap"/>
                     <div className="HomeEducation-CardBody card-body">
                         <h5 className="card-title">{edu.name}</h5>
                         <p className="card-text">
@@ -32,7 +32,7 @@ export default function HomeEducationCard({edu, index, courses, setCourses}) {
                         </p>
                     </div>
                 </div>
-                <div className="CWContainer">
+                <div className={`${courses[index] ? 'unhidden_CWContainer' : ""} CWContainer`}>
                     <button id={index} onClick={handleButton} className="btn btn-primary courseworkButton">Coursework</button>
                 </div>
             </div>
