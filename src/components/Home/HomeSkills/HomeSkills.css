@@ -3,6 +3,13 @@
     height: auto;
     margin-top: 5em;
 }
+.mobile-hide {
+    display: none;
+}
+.mobile-unhide {
+    display: flex;
+}
+
 .HomeSkills h2 {
     font-size: 4em;
     margin-bottom: 0 !important;
@@ -23,7 +30,7 @@
     justify-content: center;
 }
 .buttonContainer .btn {
-    margin: 5px 20px;
+    margin: 5px;
     max-width: 60%;
     min-width: 150px;
     font-size: 24px;
@@ -38,7 +45,7 @@
     margin: 0 auto;
     justify-content: center;
     height: 100%;
-    font-size: 6em;
+    font-size: 5em;
 
 }
 .icon-size > i:hover {
@@ -90,5 +97,17 @@ i span {
     }
     .HomeSkills h2 {
         font-size: 3em;
+    }
+    .buttonContainer {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mobile-hide { 
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    } 
+    .mobile-unhide {
+        display: none;
     }
 }
