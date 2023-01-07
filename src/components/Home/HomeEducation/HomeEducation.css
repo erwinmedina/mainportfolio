@@ -120,7 +120,8 @@
     background: white;
 }
 .CWContainer {
-    padding: 30px;
+    /* padding: 30px; */
+    height: 50px;
     background: white;
     border-radius: 0 0 20px 20px;
     transition: 1s;
@@ -154,6 +155,18 @@
   }
 
 @media (max-width: 1300px) {
+    .HomeEducation {
+        margin: 0px;
+        /* padding: 0 20px; */
+    }
+    .HomeEducation-CardBody {
+        height: 181px;
+    }
+
+    .HomeEducationCards .card, .HomeExperienceCards .card {
+        max-width: 200px;
+    }
+
     .HomeEducationCards, .HomeExperienceCards {
         flex-direction: column;
         /* display: grid;
@@ -167,6 +180,15 @@
     
     .hidden {
         /* transition: width 2s, height 0s, opacity 1s; */
-        /* height: 0; */
+        max-height: 479px;
+        height: 479px;
+    }
+    .unhidden {
+        max-height: 431px;
+        height: 431px;
+        overflow: scroll;
+    }
+    .card-title {
+        font-size: 1.2rem;
     }
 }
