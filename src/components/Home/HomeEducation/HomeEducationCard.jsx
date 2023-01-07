@@ -20,7 +20,7 @@ export default function HomeEducationCard({edu, index, courses, setCourses}) {
 
     return (
         <div className="masterCard">
-            <div className="card">
+            <div className={`${courses[index] ? 'unhidden_cardWidth':''} card`}>
                 <div className="card-top">
                     <img className={`${courses[index] ? 'unhidden_border' : ''} card-img-top`} src={edu.logo} alt="Card image cap"/>
                     <div className="HomeEducation-CardBody card-body">

@@ -51,8 +51,8 @@
         /* transition: opacity 1s; */
     }
     .hidden2 {
-        height: 404px;
-        max-height: 404px;
+        height: 431px;
+        max-height: 431px;
         transition: width 2s, height 0s, opacity 1s;
     }
 

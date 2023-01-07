@@ -18,7 +18,7 @@ export default function HomeExperienceCard({work, index, job, setJob}) {
 
     return (
         <div className="masterCard">
-            <div className="card">
+            <div className={`${job[index] ? 'unhidden_cardWidth':''} card`}>
                 <div className="card-top">
                     <img className={`${job[index] ? 'unhidden_border' : ''} card-img-top workExpImg`} src={work.logo} alt="" />
                     <div className="HomeEducation-CardBody card-body">

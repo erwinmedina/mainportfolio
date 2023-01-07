@@ -155,6 +155,10 @@
   }
 
 @media (max-width: 1300px) {
+    .unhidden_cardWidth {
+        max-width: 200px !important;
+    }
+
     .HomeEducation {
         margin: 0px;
         /* padding: 0 20px; */
@@ -164,7 +168,8 @@
     }
 
     .HomeEducationCards .card, .HomeExperienceCards .card {
-        max-width: 200px;
+        max-width: 270px;
+        transition: 1s;
     }
 
     .HomeEducationCards, .HomeExperienceCards {
@@ -180,8 +185,8 @@
     
     .hidden {
         /* transition: width 2s, height 0s, opacity 1s; */
-        max-height: 479px;
-        height: 479px;
+        max-height: 431px;
+        height: 431px;
     }
     .unhidden {
         max-height: 431px;
