@@ -26,7 +26,7 @@ export const projects = [
             "https://i.imgur.com/cwiInjd.png"
         ],
         github: 'https://github.com/erwinmedina/the-golden-boot',
-        demo: 'https://the-golden-boots.herokuapp.com/',
+        demo: 'https://erwinmedina.github.io/the-golden-boot/',
     },
     {
         name: "Pokedex",

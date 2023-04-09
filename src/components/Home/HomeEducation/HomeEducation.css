@@ -12,9 +12,9 @@
     position: relative;
     z-index: -1;
     width: 0px;
-    height: 599px;
+    height: 551px;
+    max-height: 551px;
     opacity: 0;
-    max-height: 599px;
     margin-left: -50%;
     padding: 5px 0;
     background: white;
@@ -33,12 +33,13 @@
     background: white;
     border-radius: 0 15px 15px 0;
     width: 150px;
-    height: 599px;
-    max-height: 599px;
+    height: 551px;
+    max-height: 551px;
     padding: 5px 0;
     opacity: 1;
     animation: 1.5s slide-right;
     transition: width 1s, opacity 3s;
+    overflow: scroll;
 }
 .unhidden_border {
     border-radius: 20px 0 0 0 !important;

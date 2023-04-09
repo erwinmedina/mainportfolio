@@ -7,9 +7,9 @@
     position: relative;
     z-index: -1;
     width: 0px;
-    height: 572px;
+    height: 524px;
+    max-height: 524px;
     opacity: 0;
-    max-height: 572px;
     margin-left: -50%;
     padding: 5px 0;
     background: white;
@@ -28,8 +28,8 @@
     background: white;
     border-radius: 0 15px 15px 0;
     width: 150px;
-    height: 572px;
-    max-height: 572px;
+    height: 524px;
+    max-height: 524px;
     padding: 5px 0;
     opacity: 1;
     animation: 1.5s slide-right;

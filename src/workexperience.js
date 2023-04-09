@@ -40,7 +40,7 @@ export const workexperience = [
         logo:       "https://i.imgur.com/hqiI1Qy.png",
         name:       "Paramount Pictures",
         shortname:  "Paramount",
-        time:       "2023",
+        time:       "Summer 2023",
         position:   "Software Engineering Intern",
         description: [
             "TBD"

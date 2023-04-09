@@ -62,8 +62,10 @@ export const education = [
         coursework: [
             "Assembly Language",
             "C++", 
+            "Compilers",
             "Data Structures", 
             "Database Management", 
+            "Operating Systems",
             "OOP", 
             "Python", 
         ]
