@@ -5,6 +5,9 @@ export default function HomeSkillsLanguages() {
     return (
         <FadeIn transitionDuration={1500}>
             <div class="icon-size">
+                <i class="devicon-csharp-plain colored">
+                    <span>C#</span>
+                </i>
                 <i class="devicon-cplusplus-plain">
                     <span>C++</span>
                 </i>
@@ -20,11 +23,11 @@ export default function HomeSkillsLanguages() {
                 <i class="devicon-matlab-plain colored">
                     <span>Matlab</span>
                 </i>
+                <i class="devicon-mysql-plain colored">
+                    <span>MySQL</span>
+                </i>
                 <i class="devicon-python-plain colored">
                     <span>Python</span>
-                </i>
-                <i class="devicon-mysql-plain colored">
-                    <span>SQL</span>
                 </i>
             </div>
         </FadeIn>

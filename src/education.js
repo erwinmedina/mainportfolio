@@ -60,6 +60,7 @@ export const education = [
         major: "Computer Science",
         minor: "",
         coursework: [
+            "Algorithm Engineering",
             "Assembly Language",
             "C++", 
             "Compilers",
@@ -68,6 +69,7 @@ export const education = [
             "Operating Systems",
             "OOP", 
             "Python", 
+            "Software Engineering",
         ]
     }
 ]

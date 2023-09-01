@@ -38,12 +38,21 @@ export const workexperience = [
     },
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
-        name:       "Paramount Pictures",
+        name:       "Paramount+",
         shortname:  "Paramount",
         time:       "Summer 2023",
         position:   "Software Engineering Intern",
         description: [
-            "TBD"
+            "Agile",
+            "BeautifulSoup",
+            "C#",
+            "Git/Github",
+            "Jira",
+            "MySQL",
+            "Python",
+            "Sprints",
+            "Stand Ups",
+            "Visual Studio",
         ]
     },
 ]
