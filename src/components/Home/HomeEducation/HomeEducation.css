@@ -86,6 +86,9 @@
 
 .HomeEducationCards, .HomeExperienceCards {
     display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: center;
 }
 
