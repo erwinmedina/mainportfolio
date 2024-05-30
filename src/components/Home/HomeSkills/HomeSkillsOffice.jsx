@@ -14,6 +14,11 @@ export default function HomeSkillsOffice() {
                     <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="" />
                     <span>Google Suite</span>
                 </i>
+                
+                <i class="devicon-jira-plain">
+                    <span>Jira</span>
+                </i>
+          
                 <i className="HomeSkillsOffice-Icon">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888867.png" alt="" />
                     <span>Office Suite</span>

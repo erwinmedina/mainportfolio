@@ -20,11 +20,8 @@ export default function HomeSkillsLanguages() {
                 <i class="devicon-javascript-plain colored">
                     <span>JavaScript</span>
                 </i>
-                <i class="devicon-matlab-plain colored">
-                    <span>Matlab</span>
-                </i>
-                <i class="devicon-mysql-plain colored">
-                    <span>MySQL</span>
+                <i class="devicon-azuresqldatabase-plain colored">
+                    <span>SQL</span>
                 </i>
                 <i class="devicon-python-plain colored">
                     <span>Python</span>

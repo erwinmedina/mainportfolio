@@ -39,7 +39,14 @@
     opacity: 1;
     animation: 1.5s slide-right;
     transition: width 1s, opacity 3s;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.scrollable-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border-radius: inherit;
 }
 .unhidden_border {
     border-radius: 20px 0 0 0 !important;
@@ -144,6 +151,22 @@
 }
 .card {
     background: none;
+}
+
+/* Webkit scrollbar styles */
+.unhidden::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.unhidden::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0 15px 15px 0;
+}
+
+.unhidden::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 @keyframes run {

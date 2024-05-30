@@ -1,4 +1,4 @@
-import { Route, Switch} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import HomePage from "../HomePage/HomePage";
 import Navbar from '../../components/Navbar/Navbar';
 import TopOfPage from "../../components/TopOfPage/TopOfPage";
@@ -11,18 +11,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <TopOfPage/>
-      <Switch>
-        <Route path="/projectpage">
-          <ProjectPage/>
-        </Route>
-        <Route path="/aboutpage">
-          <AboutPage/>
-        </Route>
-
-        <Route path="/">
-          <HomePage/>
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/projectpage" element={<ProjectPage/>} />
+        <Route path="/aboutpage" element={<AboutPage/>} />
+        <Route path="/" element={<HomePage/>} />
+      </Routes>
     </div>
   );
 }

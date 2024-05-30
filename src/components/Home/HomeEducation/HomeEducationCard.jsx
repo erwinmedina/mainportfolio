@@ -37,13 +37,15 @@ export default function HomeEducationCard({edu, index, courses, setCourses}) {
                 </div>
             </div>
             <div className={courses[index] ? 'unhidden' : 'hidden'}>
-                {edu.coursework.map((course, index) => (
-                    <div className="coursework">
-                        <div className="btn btn-sm btn-outline-dark">
-                            {course}
+                <div className="scrollable-content">
+                    {edu.coursework.map((course, index) => (
+                        <div className="coursework" key={index}>
+                            <div className="btn btn-sm btn-outline-dark">
+                                {course}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     )
