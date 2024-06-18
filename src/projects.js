@@ -1,5 +1,35 @@
 export const projects = [
     {
+        name: "NonProfit Financial Predictor",
+        skills: ["HTML/CSS/Javascript", "Django", "MongoDB", "Python", "Pandas", "Random Forest Regression"],
+        short: "Full stack application that helps provide nonprofit financial analysis, predictions, and visualizations",
+        long: "A full stack application that utilizes Python/Pandas for the heavy duty calculations, MongoDB for storing the API information, and HTML/Django/JS to help deliver that to the user. Still requires a hosting website. Coming soon!",
+        images: [
+            "https://i.imgur.com/7BM9PIn.png",
+            "https://i.imgur.com/7GBG3SG.png",
+            "https://i.imgur.com/clR262Z.png",
+            "https://i.imgur.com/fYnnQsC.png",
+        ],
+        github: "https://github.com/erwinmedina/NP_FinancialPredictor",
+        demo: "",
+    },
+    {
+        name: "The Golden Boot",
+        skills: ["HTML/CSS/Javascript", "Bootstrap", "Async API Calls", "Express/Node.js", "Redis Caching", "React"],
+        short: "A full stack application that provides soccer/football details!",
+        long: "A full stack application that evolved from a single page front-end to a multi-page FE/BE project. Utilizes Redis for caching API data to help improve performance and reduce API calls. Uses a backend router to help navigate the routes as well. My favorite project!",
+        images: [
+            "https://i.imgur.com/US6IDFM.jpeg", 
+            "https://i.imgur.com/S8YPVwc.png",
+            "https://i.imgur.com/s5noWoq.png",
+            "https://i.imgur.com/JQ3HHZ8.png",
+            "https://i.imgur.com/yMANZk5.png",
+            "https://i.imgur.com/4ejx9OL.png",
+        ],
+        github: 'https://github.com/erwinmedina/the-golden-boot',
+        demo: 'https://erwinmedina.github.io/the-golden-boot/',
+    },
+    {
         name: "Pet Transfer",
         skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "Google Maps API", "CSS/Bootstrap", "Heroku"],
         short: "A pet adoption application. We help find your pet a home!",
@@ -12,21 +42,6 @@ export const projects = [
         ],
         github: 'https://github.com/erwinmedina/pet-transfer',
         demo: 'https://pettransfer.herokuapp.com/',
-    },
-    {
-        name: "The Golden Boot",
-        skills: ["HTML", "Javascript", "CSS/Bootstrap", "Async API Calls", "React"],
-        short: "A single page application that provides soccer/football details!",
-        long: "An application that utilizes asynchronous API calls within React. My goal for this project was to quickly determine game details at the ease of a button. Working on this project helped me with handling async API calls and manipulating the API's as well! Also one of my first applications where I kept mobile accessibility in mind!",
-        images: [
-            "https://i.imgur.com/KggRoBJ.png", 
-            "https://i.imgur.com/092wT3w.png",
-            "https://i.imgur.com/ZEuyqcs.png",
-            "https://i.imgur.com/eQPFwVI.jpg",
-            "https://i.imgur.com/cwiInjd.png"
-        ],
-        github: 'https://github.com/erwinmedina/the-golden-boot',
-        demo: 'https://erwinmedina.github.io/the-golden-boot/',
     },
     {
         name: "Pokedex",

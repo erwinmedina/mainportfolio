@@ -2,34 +2,15 @@ import { Fade } from 'react-slideshow-image';
 import { Link } from "react-router-dom";
 import 'react-slideshow-image/dist/styles.css'
 import "./HomeProjectsImages.css";
+import { projects } from "../../../projects.js";
 
 export default function HomeProjectImages() {
-    const fadeImages = [
-        {
-            'name': 'Mancala',
-            'img': 'images/Mancala.png'
-        },
-        {
-            'name': 'Liverpool Cafe',
-            'img': 'images/Liverpool.png'
-        },
-        {
-            'name': 'The Golden Boot',
-            'img': 'images/TheGoldenBoot.png'
-        },
-        {
-            'name': 'GameChanger',
-            'img': 'images/Gamechanger.png'
-        },
-        {
-            'name': 'Pet Transfer',
-            'img': 'images/PetTransfer.png'
-        },
-        {
-            'name': 'Tic Tac Toe',
-            'img': 'images/TicTacToe.png'
+    
+    var fadeImages = projects.map(project => ({
+            'name': project.name,
+            'img': project.images[0]
         }
-    ]
+    ));
 
     const properties = {
         duration: 3000,

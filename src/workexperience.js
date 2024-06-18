@@ -1,12 +1,18 @@
 export const workexperience = [
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
-        name:       "Paramount+",
+        name:       "Paramount+ (247 Sports)",
         shortname:  "Paramount",
         time:       "Summer 2024",
         position:   "Software Engineering Intern",
         description: [
-            "TBD"
+            "Monolith to Distributed Systems",
+            "Jira / Confluence",
+            "Test-Driven Development",
+            "Unit Tests",
+            "Integration Tests",
+            "C#",
+            "Sprints / Standups",
         ]
     },
     {
@@ -29,21 +35,22 @@ export const workexperience = [
     },
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
-        name:       "Paramount+",
+        name:       "Paramount+ (MaxPreps)",
         shortname:  "Paramount",
         time:       "Summer 2023",
         position:   "Software Engineering Intern",
         description: [
             "Agile",
             "API",
-            "BeautifulSoup",
+            "ASP.NET Webforms to .NET Core",
+            "BeautifulSoup / Web Scraping",
             "C#",
             "Git/Github",
-            "Jira",
+            "Jira / Confluence",
+            "Monolith to Distributed Systems",
             "MySQL",
             "Python",
-            "Sprints",
-            "Stand Ups",
+            "Sprints / Stand Ups",
             "Visual Studio",
         ]
     },
