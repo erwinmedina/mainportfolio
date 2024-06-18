@@ -27,7 +27,7 @@ export const projects = [
             "https://i.imgur.com/4ejx9OL.png",
         ],
         github: 'https://github.com/erwinmedina/the-golden-boot',
-        demo: 'https://erwinmedina.github.io/the-golden-boot/',
+        demo: 'https://the-golden-boot.vercel.app/',
     },
     {
         name: "Pet Transfer",
