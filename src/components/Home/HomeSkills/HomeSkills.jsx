@@ -34,12 +34,12 @@ export default function HomeSkills() {
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-warning ${buttons[2].selected ? 'selected' : ''}`}>Office</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-success ${buttons[3].selected ? 'selected' : ''}`}>Design</div>
             </div>
-            {/* <div className="buttonContainer row mobile-unhide">
+            <div className="buttonContainer row mobile-unhide">
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-danger  ${buttons[0].selected ? 'selected' : ''}`}>Languages</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-primary ${buttons[1].selected ? 'selected' : ''}`}>Engineering</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-warning ${buttons[2].selected ? 'selected' : ''}`}>Office</div>
                 <div onClick={handleClick} className={`col-lg-2 col-md-12 btn btn-success ${buttons[3].selected ? 'selected' : ''}`}>Design</div>
-            </div> */}
+            </div>
             <hr />
                 <div id="aleyda" className="skillsContainer">
                     {(() => {
