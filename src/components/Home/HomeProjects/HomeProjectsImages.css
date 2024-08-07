@@ -12,6 +12,8 @@
 }
 .react-slideshow-container {
     position: relative;
+    background: rgba(255,255,255,.4) !important;
+    border-radius: 40px;
 }
 .react-slideshow-fade-wrapper {
     background: rgba(0,0,0,.2);
