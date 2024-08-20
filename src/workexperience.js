@@ -6,12 +6,16 @@ export const workexperience = [
         time:       "Summer 2024",
         position:   "Software Engineering Intern",
         description: [
+            "C#",
+            ".NET 8",
+            "Entity Framework",
+            "Dependency Injection",
+            "Data Transfer Objects",
             "Monolith to Distributed Systems",
             "Jira / Confluence",
             "Test-Driven Development",
             "Unit Tests",
             "Integration Tests",
-            "C#",
             "Sprints / Standups",
         ]
     },
