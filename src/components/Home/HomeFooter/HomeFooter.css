@@ -47,3 +47,25 @@
 .rightSideFormStuff button {
     height: 100%;
 }
+
+@media (max-width: 800px) {
+    .contactMe {
+        display: none;
+    }
+    .nameAndMore {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .icons {
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    .icons a {
+        font-size: 50px;
+    }
+    .footerContainer {
+        padding: 40px;
+        height: 350px;
+    }
+}
