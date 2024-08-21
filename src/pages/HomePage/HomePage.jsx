@@ -1,5 +1,6 @@
 import HomeEducation from "../../components/Home/HomeEducation/HomeEducation";
 import HomeExperience from "../../components/Home/HomeExperience/HomeExperience";
+import HomeFooter from "../../components/Home/HomeFooter/HomeFooter";
 import HomeProjects from "../../components/Home/HomeProjects/HomeProjects";
 import HomeSkills from "../../components/Home/HomeSkills/HomeSkills";
 import HomeTitle from "../../components/Home/HomeTitle/HomeTitle";
@@ -15,6 +16,7 @@ export default function HomePage() {
             <HomeExperience/>
             <HomeSkills/>
             <HomeProjects/>
+            <HomeFooter/>
         </div>
     )
 }

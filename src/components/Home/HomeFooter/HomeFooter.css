@@ -1,0 +1,49 @@
+.footerContainer {
+    background-color: #1b75bb;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.nameAndMore {
+    display: flex;
+    padding: 50px;
+}
+.icons a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ErwinFooter {
+    height: 150px;
+    width: 250px;
+    margin-left: 30px;
+}
+.contactMe {
+    width: 500px;
+    padding: 20px;
+    color: white;
+}
+.formStuff {
+    display: flex;
+}
+.leftSideFormStuff {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textAreaForm {
+    margin-bottom: 0;
+}
+.rightSideFormStuff {
+    padding-left: 10px;
+}
+.rightSideFormStuff button {
+    height: 100%;
+}

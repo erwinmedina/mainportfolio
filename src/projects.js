@@ -30,6 +30,19 @@ export const projects = [
         demo: 'https://the-golden-boot.vercel.app/',
     },
     {
+        name: "Hand and Foot",
+        skills: ["React Native"],
+        short: "A mobile application that keeps track of your score throughout the card game of 'Hand and Foot'",
+        long: "My first project using React Native. I created this application as a gift to a friend who taught me how to play this game. Instead of keeping track of our scores on paper, we can now use this application instead! Demo to come! Please be patient!",
+        images: [
+            "https://i.imgur.com/NmyAx6i.jpg",
+            "https://i.imgur.com/gexEw6B.jpg",
+            "https://i.imgur.com/7lqtFHk.jpg",
+            "https://i.imgur.com/WIHb9DL.jpg",
+        ],
+        github: "https://github.com/erwinmedina/HandAndFoot",
+    },
+    {
         name: "Pet Transfer",
         skills: ["React", "MongoDB", "Express", "Node.js", "Javascript", "Google Maps API", "CSS/Bootstrap", "Heroku"],
         short: "A pet adoption application. We help find your pet a home!",

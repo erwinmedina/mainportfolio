@@ -44,11 +44,10 @@
 .HomeTitle-LeftBox-Contact a {
     text-decoration: none;
     color: white;
-    transition: .5s;
+    transition: .05s;
 }
 .HomeTitle-LeftBox-Contact a:hover {
     color: rgba(0,0,0,.5);
-    transition: .5s;
 }
 
 @media (max-width: 900px) {
