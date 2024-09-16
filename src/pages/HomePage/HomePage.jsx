@@ -16,7 +16,7 @@ export default function HomePage() {
             <HomeExperience/>
             <HomeSkills/>
             <HomeProjects/>
-            <HomeFooter/>
+            {/* <HomeFooter/> */}
         </div>
     )
 }
