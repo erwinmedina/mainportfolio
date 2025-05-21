@@ -17,19 +17,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+build_step.txt
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-# git add -A
-# git commit -m "Message"
-# npm run build
-# git push origin main
-# or something.
-
-#npm run deploy
-#npm run build
-#git push
-# should be good enough i think.

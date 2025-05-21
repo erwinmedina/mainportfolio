@@ -1,6 +1,16 @@
 export const workexperience = [
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
+        name:       "Paramount+",
+        shortname:  "Paramount",
+        time:       "Summer 2025",
+        position:   "Software Engineering Intern",
+        description: [
+            "To be determined..."
+        ]
+    },
+    {
+        logo:       "https://i.imgur.com/hqiI1Qy.png",
         name:       "Paramount+ (247 Sports)",
         shortname:  "Paramount",
         time:       "Summer 2024",
