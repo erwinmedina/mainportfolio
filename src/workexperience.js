@@ -1,17 +1,28 @@
 export const workexperience = [
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
-        name:       "Paramount+",
+        name:       "Paramount+ (247Sports)",
         shortname:  "Paramount",
         time:       "Summer 2025",
         position:   "Software Engineering Intern",
         description: [
-            "To be determined..."
+            "C#",
+            "Typescript",
+            "React Testing Library",
+            "Full Stack Development",
+            ".NET 8",
+            "Entity Framework",
+            "Dependency Injection",
+            "Monolith to Distributed Systems",
+            "Jira / Confluence",
+            "Test-Driven Development",
+            "Unit Tests",
+            "Sprints / Standups",
         ]
     },
     {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
-        name:       "Paramount+ (247 Sports)",
+        name:       "Paramount+ (247Sports)",
         shortname:  "Paramount",
         time:       "Summer 2024",
         position:   "Software Engineering Intern",

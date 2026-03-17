@@ -79,7 +79,4 @@ export const education = [
             "Probability", 
             "Proofs and Theory"]
     }, 
-    
-
-    
 ]

@@ -30,6 +30,18 @@ export const projects = [
         demo: 'https://the-golden-boot.vercel.app/',
     },
     {
+        name: "Global Curiosity",
+        skills: ["Next.js", "Tailwind", "Node", "Express", "NewsAPI", "HuggingFace Summarization Model"],
+        short: "A full stack application that contextualizes the news!",
+        long: "Reading the news is exhausting, but it doesn't have to be. The goal of this project was to create an AI summary of a news article, contextualize it so the reader better understands the events around the world, and provide related articles. A learning experience for everyone.",
+        images: [
+            "https://i.imgur.com/UF8ZSUe.png",
+            "https://i.imgur.com/tuicpz5.png",
+        ],
+        github: 'https://github.com/erwinmedina/Global-Curiosity',
+        // demo: '',
+    },
+    {
         name: "Hand and Foot",
         skills: ["React Native"],
         short: "A mobile application that keeps track of your score throughout the card game of 'Hand and Foot'",
