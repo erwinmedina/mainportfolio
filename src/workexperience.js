@@ -1,5 +1,22 @@
 export const workexperience = [
     {
+        logo:       "https://i.imgur.com/IOwJE9F.png",
+        name:       "TribalScale",
+        shortname:  "TribalScale",
+        time:       "March 2026",
+        position:   "Agile QA Engineer",
+        description: [
+            "API Testing",
+            "UX/UI Testing",
+            "Regression Testing",
+            "Verification/Validation",
+            "Jira / Confluence",
+            "Sprints",
+            "Automated Tests",
+            "CI/CD Pipelines",
+        ]
+    },
+    {
         logo:       "https://i.imgur.com/hqiI1Qy.png",
         name:       "Paramount+ (247Sports)",
         shortname:  "Paramount",
